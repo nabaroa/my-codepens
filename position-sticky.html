@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>2 tips about position: sticky</title>
+  <style>
+  article {
+    width: 500px;
+    margin:auto;
+  }
+
+  header {
+    background: #f4b408;
+    height: 300px;
+    padding: 40px;
+  }
+
+  .sticky {
+    position: sticky;
+    top:50px;
+  }
+
+  main {
+      display: flex;
+      align-items: flex-start; /*tip*/
+  }
+
+  p {
+    padding: 40px;
+  }
+
+  .highlight {
+    background: #f4b408;
+  }
+  </style>
+</head>
+<body>
+  <article>
+  <header>
+    <h1>1.- Stays inside the container</h1>
+      <ul class="sticky">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+      </ul>
+  </header>
+  <h2>2.- If you use <span class="highlight">flexbox</span> as a wrapper you need to add <span class="highlight">align-items: flex-start;</span> to make the stickiness work</h2>
+  <main>
+
+    <ul class="sticky">
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+    </ul>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui recusandae repudiandae expedita deserunt soluta perspiciatis ipsa dolorum reprehenderit officiis! Consequuntur labore voluptatem vero nulla unde voluptates consectetur ipsa hic quis assumenda
+      nihil nostrum dolor illum, ipsum debitis reprehenderit rerum quae impedit in, beatae consequatur molestias obcaecati cum. Quos voluptatem perferendis cumque laboriosam repudiandae! Eaque soluta pariatur consequuntur dignissimos recusandae, nulla
+      aperiam nam. Rem delectus eligendi velit, explicabo fugit natus facilis voluptate itaque tempora minima laudantium mollitia debitis harum, reiciendis accusantium! Ipsum dolor cumque doloribus officiis perferendis ullam sapiente, cum soluta. Veniam
+      itaque explicabo hic, eum laudantium illum quos voluptatem molestiae ipsum ducimus iste in accusamus vel excepturi, eos eius ipsam sequi suscipit expedita, iusto omnis? Incidunt autem nisi, dolores quae deleniti ratione dolorem asperiores consequatur
+      quasi ad dolor fugit vel. Sunt, nesciunt adipisci. Nam explicabo, cum laborum optio qui molestias sit quibusdam autem veniam distinctio quis aperiam ad porro illum eos incidunt maxime. Optio ullam ducimus tenetur earum tempore deserunt aperiam libero
+      unde dolores delectus fugit rerum velit vero animi ad labore laudantium iste autem sapiente nostrum officiis expedita non, officia quam. Sapiente ipsum, ducimus veniam cumque temporibus tenetur, sed minima dolorum labore quibusdam ipsam incidunt
+      ex maxime repudiandae at mollitia sint. Sapiente atque, cumque repellat nihil molestiae totam, perferendis tempore quod reiciendis et obcaecati adipisci dicta quidem quam libero nostrum blanditiis minus aperiam unde, architecto dolorum est? Sed
+      nisi labore voluptas reiciendis vitae harum error nam assumenda ea adipisci repudiandae maiores nihil libero repellendus, sit blanditiis rerum vel distinctio, facilis quia dignissimos praesentium dicta. Ex molestias culpa veritatis sit in aspernatur
+      quod quasi ipsum exercitationem, officiis reprehenderit sapiente fugiat. Atque quod saepe architecto at quam cum. Temporibus facere voluptates cumque aliquid perspiciatis porro consequatur, tempora ipsum quo beatae aperiam neque velit nobis et suscipit
+      dolores veritatis modi unde assumenda eum. Rem voluptate laudantium nemo error quidem tempore asperiores velit cum? Facere doloribus inventore at minus expedita unde necessitatibus quasi placeat, voluptate rem accusamus voluptates blanditiis, maiores
+      ea sit earum odio eligendi consectetur, voluptatum amet consequuntur eum quam. Fugiat modi rem vitae quisquam, eaque quas animi facere adipisci repellendus consequuntur placeat expedita, hic pariatur in neque nisi earum tempore reiciendis quae est
+      iure? Distinctio maiores nihil culpa sequi recusandae, velit tempora ullam ea perspiciatis fugit libero molestias quos maxime excepturi, omnis assumenda corrupti, dolores illo voluptas? Culpa reprehenderit id veniam aliquam laudantium dolores velit
+      incidunt deleniti quos sunt, voluptatibus, fugit dolore dolor cumque ad repudiandae molestias assumenda porro ut nemo! Ullam illo dolores repellendus debitis impedit dignissimos asperiores praesentium, ut officia nobis sed nesciunt alias excepturi
+      totam voluptatibus aut eveniet ipsum ipsam autem repellat mollitia? Quisquam sint amet, suscipit hic quaerat odit dolorem odio laudantium aliquid voluptatibus perspiciatis quam debitis dignissimos at, molestiae mollitia. Expedita est, natus nam
+      dolor deserunt odio id cumque sunt laboriosam voluptates reprehenderit veniam atque officia aperiam explicabo. Inventore commodi hic, maxime, iusto debitis placeat non, ducimus quis at atque blanditiis cumque minus voluptatibus tempora. Odio inventore
+      debitis voluptatem maxime obcaecati ratione neque vel quod nostrum!
+    </p>
+  </main>
+</article>
+</body>
+</html>
