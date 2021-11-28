@@ -1,0 +1,34 @@
+/* Nak theme codepen by @nabaroa  */
+
+.embed-footer,
+.logo-wrap {
+  display: none;
+}
+
+.embed-nav {
+  background: white;
+  border-bottom: 1px solid #f1f1f1;
+  box-shadow: none;
+}
+
+.embed-nav .code-types a.active,
+.embed-nav .result-button-list a.active,
+.action-button.active {
+  background: #ccc;
+  box-shadow: none;
+}
+
+.embed-nav .code-types a,
+.embed-nav .result-button-list a,
+.action-button {
+  color: #ffffff;
+  background-color: #999999;
+}
+
+.cm-atom {
+  color: #222;
+}
+
+.cm-number {
+  color: #e84d7a;
+}
